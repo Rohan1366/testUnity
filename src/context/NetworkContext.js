@@ -12,7 +12,7 @@ export const NetworkProvider = ({ children }) => {
   const startMonitoring = async (url) => {
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3001/monitor', {
+      const response = await fetch('https://testunityback.onrender.com/monitor', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
