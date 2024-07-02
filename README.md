@@ -31,7 +31,7 @@ This project replicates the network monitoring functionalities of Google Chrome'
 
 1. Clone the repository:
     ```sh
- https://github.com/Rohan1366/testUnity.git
+    https://github.com/Rohan1366/testUnity.git
     ```
 
 2. Install dependencies:
