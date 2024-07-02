@@ -31,8 +31,7 @@ This project replicates the network monitoring functionalities of Google Chrome'
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/devtools-network-monitor.git
-    cd devtools-network-monitor/backend
+ (https://github.com/Rohan1366/testUnity.git)
     ```
 
 2. Install dependencies:
@@ -52,17 +51,14 @@ This project replicates the network monitoring functionalities of Google Chrome'
 
 ### Frontend
 
-1. Navigate to the frontend directory:
-    ```sh
-    cd ../frontend
-    ```
 
-2. Install dependencies:
+
+1. Install dependencies:
     ```sh
     npm install
     ```
 
-3. Start the React development server:
+2. Start the React development server:
     ```sh
     npm start
     ```
