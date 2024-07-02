@@ -1,0 +1,40 @@
+.request-list-container {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 400px;
+  }
+  
+  .request-list-header {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .request-list-item {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .request-list-item:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .request-list-item.active {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .request-list-item div {
+    flex: 1;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
